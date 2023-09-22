@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i;
+	clrscr();
+	while(i<=25)
+	{
+		i=1;
+		if(i%5==0)
+		{
+			printf("%3d",i);
+
+		}
+	       /*	else
+		{
+			printf("%d",i);
+		}*/
+		i++;
+		printf("\n");
+	}
+	 getch();
+}
